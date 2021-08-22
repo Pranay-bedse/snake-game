@@ -1,11 +1,9 @@
 # importing modules
-
 import random
 import time
 import turtle
 
 # snake window
-
 delay = 0.1
 
 wn = turtle.Screen()
@@ -15,7 +13,6 @@ wn.bgcolor("green")
 wn.tracer(0)
 
 # Snake head
-
 head = turtle.Turtle()
 head.speed(0)
 head.penup()
@@ -31,8 +28,10 @@ food.goto(0, 0)
 food.shape("circle")
 food.color("red")
 
+#new segment
 segment = []
 
+#score
 Score = 0
 High_score = 0
 
