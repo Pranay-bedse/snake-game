@@ -4,8 +4,6 @@ import time
 import turtle
 
 # snake window
-delay = 0.1
-
 wn = turtle.Screen()
 wn.title("Pranay Made Snake Game")
 wn.setup(width=600, height=600)
@@ -84,6 +82,8 @@ wn.onkeypress(go_up, "w")
 wn.onkeypress(go_down, "s")
 wn.onkeypress(go_right, "d")
 wn.onkeypress(go_left, "a")
+
+delay = 0.1
 
 while True:
     wn.update()
