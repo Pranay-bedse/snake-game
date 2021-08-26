@@ -154,7 +154,6 @@ while True:
         segment[0].goto(x, y)
 
     move()
-
     time.sleep(delay)
 
 wn.mainloop()
