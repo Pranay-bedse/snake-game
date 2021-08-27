@@ -1,4 +1,4 @@
-#importing modules
+#importing tools
 import random
 import time
 import turtle
