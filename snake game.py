@@ -3,14 +3,14 @@ import random
 import time
 import turtle
 
-# snake window
+#creating snake window
 wn = turtle.Screen()
 wn.title("Pranay Made Snake Game")
 wn.setup(width=600, height=600)
 wn.bgcolor("green")
 wn.tracer(0)
 
-# Snake head
+#Snake head
 head = turtle.Turtle()
 head.speed(0)
 head.penup()
@@ -42,7 +42,7 @@ pen.speed(0)
 pen.hideturtle()
 pen.write("Score: 0   High_score: 0", align="center",font=("courier",24,"normal"))
 
-# Snake movement
+#Snake movement
 def go_up():
     if head.direction != "down":
         head.direction = "up"
